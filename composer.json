@@ -1,24 +1,24 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "pradeep-sati12/password-changed-mail-notification",
+    "description": "This package help to send mail whenever password changed",
     "keywords": [
-        ":vendor_name",
+        "Pradeep-sati12",
         "laravel",
-        ":package_slug"
+        "password-changed-mail-notification"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/pradeep-sati12/password-changed-mail-notification",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Pradeep Sati",
+            "email": "pradeep.sati@velsof.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.1",
+        "php": "^8.0",
         "spatie/laravel-package-tools": "^1.9.2",
-        "illuminate/contracts": "^9.0"
+        "illuminate/contracts": "^8.73|^9.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.8",
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Pradeep-sati12\\PasswordChangedMailNotification\\": "src",
+            "Pradeep-sati12\\PasswordChangedMailNotification\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Pradeep-sati12\\PasswordChangedMailNotification\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -56,10 +56,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Pradeep-sati12\\PasswordChangedMailNotification\\PasswordChangedMailNotificationServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "PasswordChangedMailNotification": "Pradeep-sati12\\PasswordChangedMailNotification\\Facades\\PasswordChangedMailNotification"
             }
         }
     },
